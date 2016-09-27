@@ -1,0 +1,384 @@
+body{
+	background-color:#f5f5f5;	
+	}
+.topimage .curimage{
+	position: absolute;
+
+	height:auto;
+	width:100%;
+min-height:550px;
+margin-top:40px;
+	 min-width:1265px;
+  background-position: center;
+ z-index:-100;
+
+	
+	
+}
+.a{
+	position:absolute;
+	top:570px;
+	left:630px;
+	z-index:200;
+	display: inline-block;
+  
+	
+	
+}
+ .a .dot {
+	 position:relative;
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+
+
+
+
+
+/* Fading animation */
+.topimage {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 0.5s;
+  animation-name: fade;
+  animation-duration: 0.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .3}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .3}
+  to {opacity: 1}
+}
+
+
+.cont{
+
+height:40px;
+background-color:#1b1b1b;
+}
+	
+.col{
+	min-width:1263px;
+	display:flex;
+margin-top:0;
+  align-items:center;
+}
+header p{
+	padding-top:13px;
+font-family:Sans-Serif, Arial, sans-serif;
+	padding-left:20px;
+	font-size: 11px;
+	font-weight:500;
+	 align-items:center;
+ color:#a8a8a8;
+}	
+.col p:hover{
+	color:#FFFFFF;
+}
+#bars{
+	color:#595959;
+}
+#left{
+	padding-left:720px;
+
+}
+#temp
+{
+	padding-left:0px;
+}
+
+	
+ .containerss{
+	color:#505050;
+	font-family:"Adequate";
+	position:absolute;
+	font-size:13px;
+	font-weight:600;
+	top:168px;
+	left:100px;
+	min-width:375px;
+	z-index:-10;
+ }
+ 
+
+.containerss .row-text-center h3{
+	font-size:38px;
+	margin:0;
+	font-weight:500;
+	min-width:375px;
+}
+.paisa{
+	font-weight:400;
+	font-size:30px;
+}
+#buynow{
+	border:0.5px groove #000000;
+		color:#000000;
+	height:40px;
+	width:230px;
+	font-size:12px;
+	font-weight:600;
+	background:transparent;
+}
+
+#buynow:hover{
+	-webkit-transition: 0.65s;
+    transition: 0.65s;
+	background-color:#000000;
+color:#ffffff;
+		}
+
+		#buynow1{
+border:0.5px groove #FFFFFF;
+		color:#FFFFFF;
+		height:40px;
+	width:230px;
+	font-size:12px;
+	font-weight:600;
+	background:transparent;
+}
+
+#buynow1:hover{
+	-webkit-transition: 0.65s;
+    transition: 0.65s;
+color:#000000;
+	background-color:#FFFFFF;
+
+		}
+
+		
+		.containerccback2{
+	height:88px;
+	font-size:13px;
+	background-color:transparent;
+	position:relative;
+	width:100%;
+	z-index:100;
+}
+		.containerccback{
+	height:88px;
+	background-color:transparent;
+	position:absolute;
+	width:100%;
+	z-index:100;
+}
+		.containerccback .containercc
+		{
+			
+		width:1228px;
+		height:88px;
+margin-right:auto;
+margin-left:auto;		
+			
+		}
+	
+
+.containerccback .containercc .milogo0 {
+	position:relative;
+	float:left;
+	height:100%;
+	}	
+.containerccback .containercc .milogo0  .milogo1 {
+	line-height:88px;
+	width:56px;
+	float:left;
+	overflow:hidden;
+	}	
+	
+	.containerccback .containercc .milogo0  .milogo1 img{
+margin-left:-56px;
+
+	}
+.containerccback .containercc .menu{
+	height:100%;
+	float:right;
+	}
+
+.containercc dl{
+	font-weight:600;
+	float:left;
+	display:table;
+height:100%;
+text-align:center;
+	}
+
+	
+.containerccback .containercc .menu .miphone {
+
+	height:100%;
+	display:table-cell;
+	vertical-align:middle;
+width:115px;
+	}
+	
+	.containerccback .containercc .menu .redmi
+{
+
+	height:100%;
+	display:table-cell;
+	vertical-align:middle;
+width:135px;
+
+	}
+
+
+.containerccback .containercc .menu .mipad
+
+{
+
+	height:100%;
+	display:table-cell;
+	vertical-align:middle;
+width:105px;
+
+	}
+
+.containerccback .containercc .menu .miband
+{
+
+	height:100%;
+	display:table-cell;
+	vertical-align:middle;
+width:113px;
+
+	}
+
+	.containerccback .containercc .menu .audio
+{
+
+	height:100%;
+	display:table-cell;
+	vertical-align:middle;
+width:85px;
+
+	}
+.containerccback .containercc .menu .mipowerbank
+{
+
+	height:100%;
+	display:table-cell;
+	vertical-align:middle;
+width:137px;
+
+	}
+.containerccback .containercc .menu .accesories
+{
+
+	height:100%;
+	display:table-cell;
+	vertical-align:middle;
+width:130px;
+
+	}
+
+.containerccback .containercc .menu .micommunity
+{
+
+	height:100%;
+	display:table-cell;
+	vertical-align:middle;
+width:137px;
+
+	}
+.containerccback .containercc .menu .support
+{
+
+	height:100%;
+	display:table-cell;
+	vertical-align:middle;
+width:97px;
+
+	}
+	
+	
+
+	.containercc  d:hover{
+		-webkit-transition:color 0.3s;
+    transition:color 0.3s;
+		color:#f98006;
+		cursor:default;
+	
+	}	
+
+.containercc .subbox{
+	
+	position:absolute;
+	top:88px;
+	left:0px;
+	height:250px;
+	width:100%;
+	z-index:50;
+	background-color:white;
+	border-top: 1px solid #eee;
+	
+}
+	
+	
+	.swipe{
+		display:flex;
+		position:absolute;
+	top:285px;
+		
+	}
+	
+	
+	
+	.sleft{
+		position:absolute;
+		left:47px;
+		background-image:url('http://i01.appmifile.com/webfile/globalimg/common/icons/icon-slide-nav1.png');
+height:60px;
+width:40px;
+
+		
+	z-index:-1;
+		}
+		
+	.sright{
+		
+		position:absolute;
+		left:1190px;
+		background-image:url('http://i01.appmifile.com/webfile/globalimg/common/icons/icon-slide-nav1.png');
+background-position:right;
+height:60px;
+width:40px;
+
+		
+	z-index:-1;
+		}
+	
+	.starproducts{
+		
+		position:absolute;
+		top:587px;
+		padding-bottom:18px;
+	background-color:#f5f5f5;
+	width:100%;
+	min-width:1263px;
+	}
+	.starproducts .inn .dl{
+		padding-top:18px;
+		float:left;
+		padding-left:18px;
+		display:table;
+	}
+	
+	.starproducts .inn .dl img:hover{
+	-webkit-transition:box-shadow 0.3s;
+ box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+		}

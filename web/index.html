@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><title>Mi</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=800px, initial-scale=0">
+	<meta name="revised" content="Tutorialspoint, 3/7/2014" />
+
+<link type="text/css" rel="stylesheet" href="B.css"/>
+<link type="text/css" rel="stylesheet" href="cart.css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script>
+   $(document).ready(function(){
+    $("dl d").on({
+        mouseenter: function(){
+		var a=0;
+        $(".subbox").slideDown(250);
+		$(".containerccback").css("background-color", "white");
+		
+      $(".subbox").mouseleave(function(){
+if($(".containerccback").mouseenter)
+{		
+		$(".subbox").slideUp(250);				
+$(".containerccback").css("background-color", "transparent");
+}
+});
+
+
+}}
+);	
+
+});
+
+    </script>
+</head>
+
+
+<body>
+
+
+
+<div class="backgroundchange">
+
+<div class="topimage"  >
+<div class="curimage" style="background-image:url('http://i01.appmifile.com/webfile/globalimg/in/cms/57D0E37F-FF84-7660-0B1A-F1E5CB47CF84.jpg')">
+</div>
+<div class="containerss" >
+<div class="row-text-center" >
+<h3>Redmi 3S Prime</h3>
+<h3>Power at last</h3>
+</div><br>
+<p>4100mAh two-day battery<br>
+Octa-core Snapdragon 430<br>
+Premium metal body
+<br>Fingerprint sensor
+<br>3GB RAM + 32GB Flash<br></p>
+<p class="paisa">Rs 8,999</p>
+<br><br>
+<button id="buynow" onclick="document.getElementById('buynow').innerHTML='Aukat na hai teri'" style="border:0.5px groove #000000">12PM,9TH AUG SALE</button>
+</div>
+</div>
+
+
+
+<div class="topimage" >
+<div class="curimage" style="background-image:url('http://i01.appmifile.com/webfile/globalimg/in/cms/3DED7214-97D3-9ABE-3A8D-663AC9EDC42F.jpg')
+"></div>
+<div class="containerss">
+<div class="row-text-center">
+<h3>Mi 5 </h3>
+<h3>Fast as light</h3>
+</div><br>
+<p>Snapdragon 820, 3GB + 32GB<br>
+4-axis OIS camera<br>
+3D glass body
+<br><br>Available while stock lasts!</p>
+<br>
+<p class="paisa">Rs 24,999</p>
+<br><br>
+<button id="buynow" onclick="document.getElementById('buynow').innerHTML='NOT AVAILABLE'" style="border:0.5px groove #000000">BUY NOW</button>
+</div>
+</div>
+
+<div class="topimage" >
+
+<div class="curimage" style="background-image:url('http://i01.appmifile.com/webfile/globalimg/in/cms/B441B091-F20D-EE15-ED18-6746C7E3758F.jpg')
+"></div>
+<div class="containerss" style="color:#FFFFFF">
+<div class="row-text-center" style="font-size:46px;font-weight:100">
+<p>Mi Max</p>
+<p>is the new big</p>
+</div><br>
+<p>16.4cm (6.44) immersive display
+<br>
+Large 4850mAh battery
+<br><br></p>
+<br>
+<p class="paisa" style="font-size:24px">Rs 14,999</p>
+<br><br>
+<button id="buynow1"  onclick="document.getElementById('buynow1').innerHTML='Hurrrrr'"  >BUY NOW</button>
+</div>
+</div>
+
+
+<div class="swipe">
+<div class="sleft" onclick="nextslide(-1)">
+</div>
+<div class="sright" onclick="nextslide(1)">
+</div>
+
+</div>
+
+</div>
+
+<div class="a" style="text-align:center">
+  <span class="dot" onclick="curslide(1)" ></span>
+  <span class="dot" onclick="curslide(2)"></span>
+  <span class="dot" onclick="curslide(3)"></span>
+  </div>
+  
+
+<header class="cont">
+<div class="col">
+<p>MI INDIA</p>
+<p id="bars">|</p>
+<p>MIUI</p>
+<p id="bars">|</p>
+<p>DOWNLOAD MI STORE APP</p>
+<p id ="left">SIGN IN</p>
+<p id="bars">|</p>
+<p>SIGN UP</p>
+<p id="bars">|</p>
+<div class="icon-cart" style="padding-top:13px;padding-left:20px">
+    <div class="cart-line-1" style="background-color: #a8a8a8"></div>
+    <div class="cart-line-2" style="background-color: #a8a8a8"></div>
+    <div class="cart-line-3" style="background-color: #a8a8a8"></div>
+    <div class="cart-wheel" style="background-color: #a8a8a8"></div>
+  </div>
+  <p id="temp">  CART(0)</p>
+
+
+</div>
+</header>
+<div class="containerccback2" >
+<div class="containerccback">
+<div class="containercc">
+<div class="milogo0">
+<div class="milogo1"><img src="http://i01.appmifile.com/webfile/globalimg/pandora/mihome.png" />
+</div>
+</div>
+<div class="menu" >
+<dl>
+<div class="miphone">
+<d>
+Mi Phones
+</d>
+<div class="subbox" style="display:none;">
+</div>
+</div>
+</dl>
+
+<dl>
+<div class="redmi"><d>Redmi Phones</d></div>
+</dl>
+<dl>
+<div class="mipad"><d>Mi Pad</d></div>
+</dl>
+<dl>
+<div class="audio"><d>Audio</d></div>
+</dl>
+<dl>
+<div class="miband"><d>Mi band</d></div>
+</dl>
+<dl>
+<div class="mipowerbank"><d>Mi Power Bank</d></div>
+</dl>
+<dl>
+<div class="accesories"><d>Accesories</d></div>
+</dl>
+<dl>
+<div class="micommunity"><d>Mi Community</d></div>
+</dl>
+<dl>
+<div class="support"><d>Support</d></div>
+</dl>
+
+
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+<script src="slide.js">
+
+</script>
+
+
+
+
+
+
+<div class="starproducts">
+<div class="inn">
+<div class="dl">
+<img src="http://i01.appmifile.com/webfile/globalimg/in/cms/8A5E64EF-1F39-186B-3F21-57F459AE94DE.jpg?width=398&height=230"/>
+</div>
+<div class="dl">
+<img src="http://i01.appmifile.com/webfile/globalimg/in/cms/11318065-2879-CD3F-5295-7FF8715E929A.jpg?width=398&height=230"/>
+</div>
+<div class="dl">
+<img src="http://i01.appmifile.com/webfile/globalimg/in/cms/101D8516-C524-1C8A-85E9-662DA4EA8364.jpg?width=398&height=230"/>
+</div>
+</div>
+</div>	
+
+
+
+
+</body>
+
+
+
+
+</html>
